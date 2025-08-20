@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #EAF4E0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CalculatorMainDiv {
+    width: 320px;
+    height: 500px;
+    border: 2px solid #2F332C;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #FCF6E7;
+    box-shadow: 8px 8px #30312B;
+}
+
+.Output {
+    width: 100%;
+    height: 30%;
+    background-color: #FCF6E7;
+    position: relative;
+}
+
+.text-container {
+    padding: 10px;
+    max-width: 80%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: end;
+}
+
+#totalValue {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #30312B;
+    width: 100%;
+}
+
+#cal-values{
+    color: #30312B;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.InputBtnContainer {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(184, 243, 215);
+    border-radius: 20px 20px 0px 0px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    border: none;
+    background-color: #FCF6E7;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2px 2px #30312B40;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+}
+
+button:nth-child(17){
+    grid-column: span 2;
+}
