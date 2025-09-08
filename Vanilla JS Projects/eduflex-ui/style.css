@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.conatiner {
+    max-width: 80%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #c1b1e9;
+    font-size: 22px;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #474747;
+}
+
+.header-btn {
+    padding: 10px 30px;
+    border: 1px solid #474747;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #434446;
+}
+
+section {
+    display: flex;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 4vw;
+    color: #131416;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 70px;
+}
+
+.hero-content p {
+    font-size: 15px;
+    width: 70%;
+    padding: 30px 0px;
+    color: #434446;
+    font-weight: 400;
+}
+
+.h-btn-1 {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #c1b1e9;
+    border: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.h-btn-2 {
+    padding: 15px 30px;
+    border: 1px solid #474747;
+    border-radius: 50px;
+    margin-left: 20px;
+    background: #fff;
+    color: #474747;
+}
+
+.ratig-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 10px;
+    width: 20%;
+    align-items: center;
+}
+
+.div-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 10px;
+    width: 20%;
+    align-items: center;
+}
+
+.div-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 10px;
+    width: 20%;
+    align-items: center;
+}
+
+.line{
+    height: 40px;
+    width: 1px;
+    background: #474747;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.rating-text {
+    font-size: 12px;
+    color: #474747;
+    text-transform: capitalize;
+}
+
+.img-div {
+    overflow: hidden;
+}
+
+img {
+    margin-top: -35px;
+}
