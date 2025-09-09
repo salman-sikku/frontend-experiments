@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #79133a;
+    color: #fff;
+}
+
+.main-container {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav, ul {
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon1,
+.icon2 {
+    padding: 1px;
+    font-size: 18px;
+}
+
+.images-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.image-div{
+    width: 130px;
+    height: 350px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first-image-div{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.text-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.left-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+}
+
+.left-content, h2{
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.left-content, span{
+    font-size: 14px;
+    color: #d1d0d0;
+    padding-top: 3px;
+}
+
+.right-content{
+    width: 30%;
+    font-size: 14px;
+    color: #d1d0d0;
+}
