@@ -1,0 +1,148 @@
+@font-face {
+  font-family: p-bold;
+  src: url(./font/ClashDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: c-Regular;
+  src: url(./font/Chillax-Regular.ttf);
+}
+
+@font-face {
+  font-family: s-regular;
+  src: url(./font/Satoshi-Regular.ttf);
+}
+
+:root {
+  --primary: #e95c2b;
+  --background: #fff8f0;
+  --text-dark: #111;
+  --text-light: #666;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html,
+body {
+  background: radial-gradient(circle, #74c29e 0%, #478169 100%);
+  color: #fff;
+  overflow: hidden;
+}
+
+header {
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: c-Regular;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo {
+  font-size: 28px;
+  font-family: c-Regular;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: -350px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon1,
+.icon2 {
+  padding: 1px;
+  font-size: 18px;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  padding: 0px 60px;
+  position: relative;
+}
+
+.left-content{
+  position: absolute;
+  font-family:c-Regular;
+  top: 15%;
+}
+
+h3{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.top-left-text{
+  width: 30%;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #e6f2eb;
+}
+
+.bottom-left-text{
+  width: 30%;
+  font-size: 16px;
+  margin-top: 40px;
+  font-weight: 500;
+  color: #e6f2eb;
+}
+
+.centertext-imge {
+  height: 100%;
+  position: relative;
+}
+
+h1 {
+  font-size: 16rem;
+  font-family: p-bold;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 0.80;
+  margin-top: -40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  margin-top: -70px;
+}
+
+.right-content{
+  position: absolute;
+  font-family:c-Regular;
+  top: 15%;
+  right: -180px;
+}
